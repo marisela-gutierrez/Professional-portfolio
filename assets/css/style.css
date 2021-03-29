@@ -15,6 +15,9 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 header h1 {
@@ -22,12 +25,14 @@ header h1 {
   font-size: 20px;
   color: white;
   margin: 0;
+  text-shadow: 2px 2px 4px #000000;
 
 }
 
 header a {
   text-decoration: none;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 header nav {
@@ -52,13 +57,17 @@ header nav ul li a:hover {
   background: #82f0e2;
   color: #f082c0;
   border-radius: 10px;
+  text-shadow: none;
 }
 
 .section-title {
   color: white;
   font-size: 40px;
   text-align: center;
+  margin-top: 15px;
+  text-shadow: 2px 2px 4px #f082c0;
 }
+
 /* ABOUT ME STYLES */
 
 .about-me {
@@ -66,10 +75,12 @@ header nav ul li a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .about-me img {
-  margin: 20px;
+  margin-top: 20px;
+  border: 5px solid white;
   border-radius: 50%;
 }
 
@@ -92,6 +103,7 @@ header nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-bottom: 70px;
 }
 
 .application {
@@ -114,3 +126,34 @@ header nav ul li a:hover {
   text-align: center;
 }
 
+/* CONTACT ME*/
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  background-color: rgba(48, 51, 56, 0.50);
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.contact-me {
+  padding: 5px;
+  width: 200px;
+  margin-top: 15px;
+  font-size: 1.60vw;
+  color: white;
+  margin: 30px;
+  
+}
+
+.contact-me a {
+  color: rgb(240, 106, 200);
+  font-size: 1.3vw;
+}
+
+.contact-me a:hover {
+  background: #f082c0;
+  color: #82f0e2;
+  border-radius: 20px;
+}
