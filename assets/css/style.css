@@ -61,6 +61,10 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 
+section {
+  padding: 60px;
+}
+
 .section-title {
   color: white;
   font-size: 40px;
@@ -102,7 +106,7 @@ header nav ul li a:hover {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-bottom: 70px;
 }
 
@@ -186,4 +190,75 @@ header nav ul li a:hover {
   background: #f082c0;
   color: #82f0e2;
   border-radius: 20px;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  .section-title {
+    width: auto;
+  }
+
+  .application {
+    flex: 0 70%;
+  }
+
+  .contact {
+    flex-wrap: wrap;
+  }
+
+  .contact-me {
+    font-size: 20px;
+  }
+
+  .contact-me a {
+    font-size: 15px;
+  }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .about-me p {
+    width: 100%;
+  }
+  section {
+    padding: 30px 15px;
+  }
+
+ .section-title {
+   width: auto;
+ }
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .section-title {
+    width: 95%;
+  }
+
+  .application {
+    flex: 0 100%;
+  }
+
 }
