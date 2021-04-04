@@ -8,7 +8,7 @@ An effective portfolio that showcases my current skills and talents to employers
 * CSS
 
 
-![Screenshot](marisela-gutierrez.github.io_Professional-portfolio_)
+[![marisela-gutierrez-github-io-Professional-portfolio.png](https://i.postimg.cc/0NwXmtPm/marisela-gutierrez-github-io-Professional-portfolio.png)](https://postimg.cc/kV7yPvVX)
 
 
 
